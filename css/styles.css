@@ -1,1 +1,28 @@
+.topnav-right {
+    float: right
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding:0;
+    
+  }
+  
+  li {
+    display: inline;
+  }
+
+  li {
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    padding: 8px;
+   
+  }
+  img.mediana{
+    width: 113px; height: 55px;
+  }
+ 
 
