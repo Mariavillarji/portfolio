@@ -1,14 +1,24 @@
+@font-face {
+    font-family: "Nunito";
+    src: url("font-family: 'Nunito', sans-serif;");
+  }
+
 .topnav-right {
     float: right
-}
-ul {
+    }
+
+   
+
+
+
+li {
     list-style-type: none;
     margin: 0;
     padding:0;
     
   }
   
-  li {
+  header {
     display: inline;
   }
 
@@ -18,11 +28,36 @@ ul {
   
   li a {
     display: block;
-    padding: 8px;
+    padding: 15px;
    
   }
-  img.mediana{
+  img.mediana {
     width: 113px; height: 55px;
+    
   }
- 
+
+  .container-fluid {
+    display: flex;
+    height: 325px;
+    padding-top:25px;
+    }
+
+
+.container {
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+
+.row{
+
+
+}
+ .box{
+    background-color: aquamarine;
+    margin: 20px 0px;
+    height: 290px;
+ }
+
+  
+  
 
