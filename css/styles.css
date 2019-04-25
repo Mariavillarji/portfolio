@@ -1,17 +1,21 @@
 @font-face {
     font-family: "Nunito";
-    src: url("font-family: 'Nunito', sans-serif;");
+    src: url(font-family: 'Nunito', sans-serif;);
   }
 
 
 .container {
 	padding-top: 70px;
 	padding-bottom: 20px;
-	
 	display: flex;
 	justify-content: space-between;
 }
-   
+
+
+img.mediana {
+	width: 113px; 
+	height: 55px;
+}
 
 .menu {
 	display: flex;
@@ -77,18 +81,20 @@
 .box:hover {
 	transition: all 0.17s ease-in-out;
 	transform: translateY(5px);
-	box-shadow: 5px 5px 20px rgba(0,0,0,0.5)
+	box-shadow: 5px 5px 20px rgba(202, 202, 202, 0.5)
 }
 
 .box2 {
-	height: 500px;
-	min-width: 500;
+	width:1800px;
+	height: 400px;
+	background: rgba(235, 235, 235, 0.5);
+	margin: 30px;
+	margin-bottom:30px 
 }
 
 #box-img-1 {
 	background-image: url('../img/l.png');
 }
 
- 
-  
+
 
