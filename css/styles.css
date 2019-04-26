@@ -1,6 +1,6 @@
 @font-face {
-    font-family: "Nunito";
-    src: url(font-family: 'Nunito', sans-serif;);
+    font-family: "avenir";
+    src: url(font-family: avenir-light.ttf);
   }
 
 
@@ -13,8 +13,8 @@
 
 
 img.mediana {
-	width: 113px; 
-	height: 55px;
+	width: 111px; 
+	height: 53px;
 }
 
 .menu {
@@ -40,7 +40,7 @@ img.mediana {
 
 .menu li a::after {
 	opacity: 0;
-	transition: 200ms;
+	transition: 100ms;
 	content: '';
 	position: absolute;
 	bottom: 0;
@@ -63,6 +63,7 @@ img.mediana {
 	flex-wrap: wrap;
 	justify-content: center;
 	padding: 0px 50px;
+	
 }
 
 .box{
@@ -72,8 +73,7 @@ img.mediana {
 	margin: 20px;
 	padding: 50px;
 	border-radius: 0px;
-
-	display: flex;
+  display: flex;
 	justify-content: center;
 	align-items: center;
 }
@@ -93,7 +93,28 @@ img.mediana {
 }
 
 #box-img-1 {
-	background-image: url('../img/l.png');
+	background-image: url('../img/Think.png');
+	text-decoration-color:rgb(230, 230, 230)
+}
+
+
+.box3 {
+	margin: 20px;
+	padding: 50px;
+	justify-content: center;
+	text-align: left;
+	
+}
+
+.container-boxes-pag1 {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding: 80px 50px;
+	background: rgba(235, 235, 235, 0.5);
+	width: auto;
+	height: 500px;
+	
 }
 
 
