@@ -1,8 +1,5 @@
-@font-face {
-    font-family: "avenir";
-    src: url(font-family: avenir-light.ttf);
-  }
-
+body {font-family: 'Nunito', sans-serif;
+	    }
 
 .container {
 	padding-top: 70px;
@@ -11,10 +8,21 @@
 	justify-content: space-between;
 }
 
+.containerheader{
+	display: flex;
+	justify-content: space-between;
+	padding: 60px 32px 0px 32px;
+
+}
+
+header{
+	padding:0 50px;
+}
+
 
 img.mediana {
-	width: 111px; 
-	height: 53px;
+	width: 107px; 
+	height: 51px;
 }
 
 .menu {
@@ -22,7 +30,7 @@ img.mediana {
 }
 
 .menu li {
-	list-style-type: none;
+  list-style-type: none;
 	margin: 0;
 	padding:0;
 	
@@ -106,16 +114,56 @@ img.mediana {
 	
 }
 
-.container-boxes-pag1 {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-	padding: 80px 50px;
-	background: rgba(235, 235, 235, 0.5);
-	width: auto;
-	height: 500px;
+
+.titulo {
+	
+	margin-left: 80px;
+	text-align: left;
+	
 	
 }
+
+.titulo h1{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 300;
+	line-height: .4em;
+	
+}
+
+.titulo h2{
+	font-size: .9em;
+	padding-left:5px;
+}
+.container-boxes-pag2 {
+	
+  margin-left: 80px;
+	margin-right: 80px;
+	margin-bottom: 40px;
+  width: auto;
+	height: 500px;
+	background-color: rgb(235, 235, 235, 0.5);
+	display: flex;
+	flex-wrap: wrap;
+	padding: 0px 50px;
+	
+
+}
+
+.container-boxes-pag3 {
+	
+  margin-left: 80px;
+	margin-right: 80px;
+  width: auto;
+	height: 500px;
+	background-color: rgba(235, 235, 235, 0.5);
+	display: flex;
+	flex-wrap: wrap;
+	padding: 0px 50px;
+	
+
+}
+
+
 
 
 
