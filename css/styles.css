@@ -1,14 +1,18 @@
 body {
-	font-family: 'Nunito', sans-serif;
+	font-family: 'Nunito Sans', sans-serif;
+	background-color: rgb(247, 247, 247)
 }
+
 html {
 	width:100%;
 	scroll-behavior: smooth;
 }
 
+
 a {
 	color: #000;
 	text-decoration: none;
+	
 }
 a:hover {
 	color: #000;
@@ -53,6 +57,7 @@ img.mediana {
 	display: block;
 	padding: 15px;
 	position: relative;
+	
 }
 
 .menu li a:hover {
@@ -77,7 +82,7 @@ img.mediana {
 }
 
 #container-boxes {
-	background-color: rgb(255, 255, 255);
+	background-color: rgb(247, 247, 247);
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
@@ -86,7 +91,7 @@ img.mediana {
 }
 
 .box{
-	background: rgb(255, 255, 255);
+	background: rgb(247, 247, 247);
 	width: 400px;
 	height: 400px;
 	margin: 8px;
@@ -103,12 +108,13 @@ img.mediana {
 	box-shadow: 5px 5px 20px rgba(202, 202, 202, 0.5)
 }
 
-.box2 {
-	width:1800px;
+.fondo {
+	width: auto;
 	height: 400px;
 	background: none;
-	margin: 30px;
 	margin-bottom:30px 
+	
+  
 }
 
 #box-img-1,#box-img-2 {
@@ -123,6 +129,8 @@ img.mediana {
 	padding: 50px;
 	justify-content: center;
 	text-align: left;
+	font-weight: 100;
+	line-height: 20px;
 	
 }
 
@@ -131,8 +139,6 @@ img.mediana {
 	
 	margin-left: 80px;
 	text-align: left;
-	
-	
 	
 }
 
@@ -161,7 +167,6 @@ img.mediana {
 	flex-wrap: wrap;
 	padding: 0px 50px;
 	
-
 }
 
 .container-boxes-pag3 {
@@ -175,24 +180,31 @@ img.mediana {
 	flex-wrap: wrap;
 	padding: 0px 50px;
 	
-
 }
 
-.titulosnegritas{
+.titulosnegritas {
 font-weight: bold;
 line-height: 50px;
+
+
 }
 
-.titulosnegritas2{
+.titulosnegritas2 {
 	font-weight: bold;
 	margin: 30px;
 	
-	}
-
-@media (max-width:375px){
-
 }
 
+@media (max-width:375px){
+}
+
+.containerpaginathink {
+margin-top: 60px;
+}
+.container-conocernos {
+	margin-top: 30px;
+
+}
 
 
 
