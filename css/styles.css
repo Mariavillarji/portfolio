@@ -28,7 +28,7 @@ a:hover {
 .containerheader{
 	display: flex;
 	justify-content: space-between;
-	padding: 60px 31px 0px 31px;
+	padding: 60px 27px 0px 27px;
   margin-bottom:32px;
 }
 
@@ -38,8 +38,9 @@ header{
 
 
 img.mediana {
-	width: 106px; 
-	height: 50px;
+	width: 103px; 
+	height: 47px;
+	
 }
 
 .menu {
@@ -117,7 +118,7 @@ img.mediana {
   
 }
 
-#box-img-1,#box-img-2 {
+#box-img-1,#box-img-2,#box-img-3 {
 	background-image: url('../img/Think.png');
 	background-position: center;
 	text-decoration-color:rgb(230, 230, 230)
@@ -143,7 +144,7 @@ img.mediana {
 }
 
 .titulo h1{
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'nunito';
 	font-size:2em;
 	line-height: .9em;
 	
@@ -179,6 +180,7 @@ img.mediana {
 	display: flex;
 	flex-wrap: wrap;
 	padding: 0px 50px;
+	margin-bottom: 90px;
 	
 }
 
@@ -202,7 +204,52 @@ line-height: 50px;
 margin-top: 60px;
 }
 .container-conocernos {
-	margin-top: 30px;
+margin-top: 30px;
+
+}
+.topnav-right {
+padding: 8px 27px 0px 27px;
+
+}
+
+.container-boxes-texto1 {
+margin-top: 80px;
+margin-left: 200px;
+margin-right: 900px;
+margin-bottom: 180px;
+width: auto;
+height: 300px;
+display: flex;
+flex-wrap: wrap;
+padding: 0px 50px;
+text-justify: left
+font-size: 1em;
+padding-left: 5px;
+line-height: 1.8em;
+justify-content: flex-start;
+}
+
+.container-boxes-texto2 {
+margin-top: 80px;
+margin-left: 600px;
+margin-right: 300px;
+margin-bottom: 300px;
+width: auto;
+height: 300px;
+display: flex;
+flex-wrap: wrap;
+padding: 0px 10px 0px 20px;
+text-justify: left
+font-size: 1em;
+padding-left: 90px;
+line-height: 1.8em;
+justify-content: flex-start;
+}
+	
+
+
+.container-prototype {
+font-weight: bold;
 
 }
 
