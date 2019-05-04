@@ -8,6 +8,12 @@ html {
 	scroll-behavior: smooth;
 }
 
+main {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
 
 a {
 	color: #000;
@@ -83,16 +89,15 @@ img.mediana {
 }
 
 #container-boxes {
-	background-color: rgb(247, 247, 247);
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
 	padding: 0px 50px;
-	
+	text-decoration: none;
 }
 
 .box{
-	background: rgb(247, 247, 247);
+	
 	width: 400px;
 	height: 400px;
 	margin: 8px;
@@ -109,10 +114,36 @@ img.mediana {
 	box-shadow: 5px 5px 20px rgba(202, 202, 202, 0.5)
 }
 
-#box-img-1,#box-img-2,#box-img-3 {
+#box-img-1{
 	background-image: url('../img/Think.png');
 	background-position: center;
-	text-decoration-color:rgb(230, 230, 230)
+}
+
+#box-img-2 {
+	background-image: url('../img/3.jpg');
+	background-position: center;
+}
+
+
+#box-img-3 {
+	background-image: url('../img/6.jpg');
+	background-position: center;
+}
+
+#box-img-4 {
+	background-image: url('../img/4.jpg');
+	background-position: center;
+}
+
+
+#box-img-5 {
+	background-image: url('../img/2_2.jpg');
+	background-position: center;
+}
+
+#box-img-6 {
+	background-image: url('../img/5.jpg');
+	background-position: center;
 }
 
 
@@ -176,8 +207,10 @@ margin: 30px;
 	
 }
 
-@media (max-width:375px){
-}
+/* @media (max-width:375px){
+} */
+
+
 
 .container-conocernos {
 margin-top: 30px;
@@ -188,18 +221,19 @@ padding: 8px 27px 0px 27px;
 
 }
 
-.container-main {
+/* .container-main {
 display: flex;
 flex-direction: column;
 padding: 10px 10px;
 width: 100%;
-}
+} */
 
 .container-boxes {
-display: flex;
-height: fit-content;
-margin-left: 80px;
-margin-right: 80px;
+	display: flex;
+	height: fit-content;
+	justify-content: center;
+	margin-left: 80px;
+	margin-right: 80px;
 }
 
 .container-boxes-texto1 {
@@ -243,6 +277,17 @@ justify-content: flex-start;
 
 }
 
+@media screen and (min-width:1440px) {
+	#container-boxes{
+		max-width: 1310px;
+	}	
+}
+
+#box-img-T {
+	background-image: url('../img/T_1.jpg');
+	background-position: center;
+	background-size: cover;
+}
 
 
 
